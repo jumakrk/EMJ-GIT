@@ -14,15 +14,428 @@
 .topbar{
     width: 100%;
     height: 3rem;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.229);
     display: flex;
     align-items: center;
+    position: fixed;
 }
+
+.logodiv{
+    width: 20rem;
+    height: 100%;
+    /* background-color: red; */
+}
+.logo1image{
+    width: 3rem;
+}
+.topul{
+    width: 40rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+    margin-left: 25rem;
+}
+.toplink{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+.toplink:hover{
+    color: red;
+}
+
+/* ///////////////////////////// */
 
 .container1{
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    justify-content: center;
+    background-image: url(./public/images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.welcometex{
+    width: 40rem;
+    height: 25rem;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 2rem;
+    margin-left: 5rem;
+    justify-content: center;
+}
+
+.text{
+    display: flex ;
+    width: 70%;
+    height: 50%;
+    flex-direction: column;
+    color: white;
+}
+.btns{
+    width: 90%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-top: 1rem;
+
+    
+}
+.carbtn{
+    width: 12rem;
+    height: 3rem;
+    border: white solid 1px;
+    outline: none;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    transition: boreder-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.333);
+
+}
+.carbtn:hover{
+    background-color: black;
+    border-color: red;
+}
+#seconbtn{
+    margin-left: 2rem;
+    background-color: black;
+    border-color: red;
+
+}
+#seconbtn:hover{
+    background-color:white;
+    border-color:red;
+    color: black;
+
+}
+/* ///////////////////////////// */
+.container2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.conyainer22{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(./public/images/bg3.jpg);
+background-size: cover;
+
+
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+
+}
+
+.textc2{
+color: black;
+}
+
+.grid{
+    width: 100%;
+    height: 100%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding-left: 2.5rem;
+   padding-top: 1rem;
+}
+.singlebox{
+    width: 10rem;
+    height: 10rem;
+    background-color: rgba(128, 128, 128, 0.373);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: color 1s ease;
+}
+
+.singlebox:hover{
+    color: red;
+}
+/* //////////////////////////// */
+
+.container3{
+width: 100%;
+height: 100vh;
+/* background-color: lightcoral; */
+display: flex;
+flex-direction: column;
+align-items: center
+}
+.choices{
+    width:40rem;
+    height: 4rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.choicebtn{
+    width: 10rem;
+    height: 2.5rem;
+    border: gray solid 1px;
+    background-color: white;
+    color: gray ;
+    outline: none;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    border-radius: 5px;
+}
+.choicebtn:hover{
+    background-color: gray;
+    color: white;
+}
+.cards{
+    width: 98%;
+    height: 85%;
+    /* background-color: blue; */
+    display:  flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.tyreimage{
+    width: 15rem;
+}
+
+.card{
+    width: 19%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    transition: border-color 0.5s ease;
+    border-radius: 5px;
+    border: black solid 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+.card:hover{
+    /* border: gray solid 2px; */
+}
+.cimg{
+    width: 100%;
+    height: 75%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px 7px 0px 0px;
+    transition: background-color 0.7s ease;
+}
+
+.cimg:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.text3c{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: green; */
+}
+
+.rating{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cbtns{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+
+}
+.cbtns:hover{
+    visibility: visible;
+}
+.cbtn1{
+    width: 6rem;
+    height: 2rem;
+    outline: none;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: black solid 1.5px;
+    transition: background-color 0.7s ease;
+    transition: border-color 1s ease;
+}
+
+.cbtn1:hover{
+   background-color: white;
+   color: red;
+   border-color: red;
+    }
+
+.cbtn2{
+    width: 6rem;
+    height: 2rem;
+    outline: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    transition: border-color 1s ease;
+}
+.cbtn2:hover{
+    background-color: white;
+    color: black;
+    border: black solid 1.5px;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+.container4{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title{
+font-size: 1.2rem;
+font-weight: bold;
+height: 4rem;
+display: flex;
+align-items: center;
+}
+.boxes{
+width: 100%;
+height: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-evenly;
+}
+.box{
+    width: 32%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: violet; */
+    transition: color 1s ease;
+}
+
+.box:hover{
+    color: red;
+}
+.image{
+    width: 100%;
+    height: 60%;
+}
+.bigcardimage{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+}
+.text1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+}
+.text2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+
+/* /////////////////////////////////////////////////// */
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loggo{
+    width: 20rem;
+    height:20rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loogima{
+    width: 100%;
+    height: 100%;
+}
+
+.footul{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    color: gray;
+}
+
+.lione{
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: red;
 }
