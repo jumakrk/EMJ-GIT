@@ -23,7 +23,10 @@
 .logodiv{
     width: 20rem;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
+}
+.logo1image{
+    width: 3rem;
 }
 .topul{
     width: 40rem;
