@@ -14,15 +14,278 @@
 .topbar{
     width: 100%;
     height: 3rem;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.229);
     display: flex;
     align-items: center;
+    position: fixed;
 }
+
+.logodiv{
+    width: 20rem;
+    height: 100%;
+    background-color: red;
+}
+.topul{
+    width: 40rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+    margin-left: 25rem;
+}
+.toplink{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+.toplink:hover{
+    color: red;
+}
+
+/* ///////////////////////////// */
 
 .container1{
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    justify-content: center;
+    background-image: url(./public/images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
+.welcometex{
+    width: 40rem;
+    height: 25rem;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 2rem;
+    margin-left: 5rem;
+    justify-content: center;
+}
+
+.text{
+    display: flex ;
+    width: 70%;
+    height: 50%;
+    flex-direction: column;
+    color: white;
+}
+.btns{
+    width: 90%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+
+    
+}
+.carbtn{
+    width: 12rem;
+    height: 3rem;
+    border: white solid 1px;
+    outline: none;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    transition: boreder-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.333);
+
+}
+.carbtn:hover{
+    background-color: black;
+    border-color: red;
+}
+#seconbtn{
+    margin-left: 2rem;
+    background-color: black;
+    border-color: red;
+
+}
+#seconbtn:hover{
+    background-color:white;
+    border-color:red;
+    color: black;
+
+}
+/* ///////////////////////////// */
+.container2{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.textc2{
+color: black;
+}
+
+.grid{
+    width: 100%;
+    height: 100%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding-left: 2.5rem;
+   padding-top: 1rem;
+}
+.singlebox{
+    width: 10rem;
+    height: 10rem;
+    background-color: rgba(128, 128, 128, 0.373);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* //////////////////////////// */
+
+.container3{
+width: 100%;
+height: 100vh;
+background-color: lightcoral;
+display: flex;
+flex-direction: column;
+align-items: center
+}
+.choices{
+    width:40rem;
+    height: 4rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.choicebtn{
+    width: 10rem;
+    height: 2.5rem;
+    border: gray solid 1px;
+    background-color: white;
+    color: gray ;
+    outline: none;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    border-radius: 5px;
+}
+.choicebtn:hover{
+    background-color: gray;
+    color: white;
+}
+.cards{
+    width: 95%;
+    height: 85%;
+    background-color: blue;
+    display:  flex;
+    align-items: center;
+    
+}
+
+.card{
+    width: 20%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    transition: border-color 0.5s ease;
+    border-radius: 10px;
+}
+.card:hover{
+    border: gray solid 2px;
+}
+.cimg{
+    width: 100%;
+    height: 75%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text3c{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: green;
+}
+
+.rating{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cbtns{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.cbtn1{
+    width: 7rem;
+    height: 3rem;
+    outline: none;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: width 0.5s ease;
+    transition: height 0.5s ease;
+}
+
+.cbtn2{
+    width: 7rem;
+    height: 3rem;
+    outline: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cbtn1:hover{
+width: 6.9rem;
+height: 2.9rem;
+}
+
+.container4{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
