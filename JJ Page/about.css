@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  background-image: url(./images/About-BG.webp);
+  height: 500px;
+}
+
+.header img {
+  height: 40px;
+  margin-right: 861px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 12px;
+}
+
+ul a {
+  text-decoration: none;
+  margin-left: 80px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+ul a:hover {
+  color: rgb(255, 95, 31);
+}
+
+.header .about-heading {
+  color: white;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+.header .line {
+  height: 3px;
+  background-color: white;
+  width: 200px;
+  margin-left: 280px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.header p {
+  color: white;
+  font-size: large;
+  width: 500px;
+  margin-left: 150px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.entire-content .entire-text-content {
+  margin-right: -500px;
+}
+
+.main-content .first-header {
+  margin-left: 280px;
+  margin-top: 100px;
+}
+
+.main-content .line {
+  height: 3px;
+  background-color: black;
+  width: 200px;
+  margin-left: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.main-content p {
+  width: 500px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.main-content span {
+  font-weight: bolder;
+}
+
+.main-content-two .second-header {
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+.main-content-two .line {
+  height: 3px;
+  background-color: black;
+  width: 200px;
+  margin-left: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.main-content-two p {
+  width: 500px;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-content-three .third-header {
+  margin-left: 220px;
+  margin-top: 100px;
+}
+
+.main-content-three .line {
+  height: 3px;
+  background-color: black;
+  width: 200px;
+  margin-left: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.main-content-three p {
+  width: 500px;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.entire-content {
+  display: flex;
+}
+
+.entire-content .images {
+  margin-top: 500px;
+  margin-right: 500px;
+}
+
+.entire-content .images img {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: black;
+  height: 100px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
